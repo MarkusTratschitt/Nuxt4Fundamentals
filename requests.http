@@ -1,0 +1,11 @@
+GET http://localhost:3000/api/helloWorld
+
+###
+
+POST http://localhost:3000/api/helloWorld
+
+{
+  "framework" : "Nuxt 3",
+  "name" : "Markus",
+  "text" : "POST helloWorld saying hello!"
+}
