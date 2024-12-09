@@ -11,9 +11,13 @@ export default defineNuxtConfig({
         autoImports: ["defineStore", "acceptHMRUpdate"],
       },
     ],
+    "@nuxt/image",
   ],
   imports: {
     dirs: ['stores'],
+  },
+  image: {
+    domains: ['m.media-amazon.com']
   },
   routeRules: {
     "/spa": { ssr: false },

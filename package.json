@@ -16,5 +16,8 @@
     "pug": "^3.0.3",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^1.0.0-rc.3"
   }
 }
